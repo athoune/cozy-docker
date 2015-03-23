@@ -1,0 +1,7 @@
+---
+
+couchdb:
+    build: couchdb
+    expose:
+        - 5984
+        
