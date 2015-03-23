@@ -4,4 +4,8 @@ couchdb:
     build: couchdb
     expose:
         - 5984
-        
+
+indexer:
+    build: indexer
+    expose:
+        - 9102
