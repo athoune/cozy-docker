@@ -12,3 +12,8 @@ indexer:
 
 controller:
     build: controller
+    expose:
+        - 9104
+    links:
+        - indexer
+        - couchdb

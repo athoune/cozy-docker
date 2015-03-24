@@ -21,3 +21,7 @@ RUN npm install -g \
   coffee-script \
   cozy-controller \
   cozy-monitor
+
+EXPOSE 9104
+ENV NODE_ENV production
+CMD cozy-controller
