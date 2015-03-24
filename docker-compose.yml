@@ -9,3 +9,6 @@ indexer:
     build: indexer
     expose:
         - 9102
+
+controller:
+    build: controller
