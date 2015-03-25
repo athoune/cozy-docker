@@ -24,4 +24,5 @@ RUN npm install -g \
 
 EXPOSE 9104
 ENV NODE_ENV production
+ENV HOST 0.0.0.0
 CMD cozy-controller
